@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+### Используемые библиотеки и технологии
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. **@emotion/react** (v11.9.0) - Библиотека для управления стилями с помощью эмоций (Emotion).
 
-## Available Scripts
+2. **@emotion/styled** (v11.8.1) - Библиотека для стилизации компонентов с использованием эмоций.
 
-In the project directory, you can run:
+3. **@mui/icons-material** (v5.8.0) - Материальные иконки для Material-UI.
 
-### `npm start`
+4. **@mui/material** (v5.8.0) - Библиотека компонентов для создания интерфейсов в стиле Material Design.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. **@reduxjs/toolkit** (v1.8.2) - Библиотека для управления состоянием приложения в React с использованием Redux.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6. **@testing-library/jest-dom** (v5.16.4) - Библиотека для тестирования DOM-элементов в Jest.
 
-### `npm test`
+7. **@testing-library/react** (v13.2.0) - Библиотека для тестирования компонентов React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+8. **@testing-library/user-event** (v13.5.0) - Библиотека для эмуляции пользовательских событий в тестах.
 
-### `npm run build`
+9. **axios** (v0.27.2) - Библиотека для выполнения HTTP-запросов.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+10. **clsx** (v1.1.1) - Утилита для объединения CSS-классов.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+11. **easymde** (v2.16.1) - Простой редактор Markdown.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+12. **prettier** (v2.6.2) - Инструмент для форматирования кода.
 
-### `npm run eject`
+13. **react** (v18.1.0) - Основная библиотека для разработки пользовательских интерфейсов.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+14. **react-dom** (v18.1.0) - Библиотека для взаимодействия с DOM в React-приложениях.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+15. **react-hook-form** (v7.32.0) - Библиотека для управления формами в React с использованием хуков.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+16. **react-markdown** (v8.0.3) - Библиотека для отображения Markdown-разметки в React.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+17. **react-redux** (v8.0.2) - Интеграция Redux с React для управления состоянием.
 
-## Learn More
+18. **react-router-dom** (v6.3.0) - Библиотека для навигации и маршрутизации в React-приложениях.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+19. **react-scripts** (v5.0.1) - Скрипты для создания и запуска React-приложений.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+20. **react-simplemde-editor** (v5.0.2) - Простой редактор Markdown для React.
 
-### Code Splitting
+21. **sass** (v1.52.1) - Препроцессор CSS для создания стилей.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+22. **web-vitals** (v2.1.4) - Библиотека для отслеживания основных метрик производительности веб-приложений.
 
-### Analyzing the Bundle Size
+## MERN (MongoDB, Express, React, Node.js)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+MERN - это стек технологий для разработки веб-приложений и веб-сервисов. Он включает в себя четыре основных компонента:
 
-### Making a Progressive Web App
+1. **MongoDB**: MongoDB - это NoSQL база данных, которая использует документы в формате BSON (Binary JSON) для хранения данных. Она широко используется для хранения и управления данными в веб-приложениях.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. **Express**: Express.js - это минималистичный и гибкий веб-фреймворк для Node.js. Он позволяет быстро создавать веб-серверы и API, упрощая обработку HTTP-запросов и маршрутизацию.
 
-### Advanced Configuration
+3. **React**: React - это библиотека JavaScript для создания пользовательских интерфейсов. Она позволяет разработчикам создавать динамические и интерактивные веб-приложения, разбивая интерфейс на компоненты.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. **Node.js**: Node.js - это среда выполнения JavaScript на сервере. Она позволяет разработчикам создавать серверные приложения с использованием JavaScript, что обеспечивает единообразие между клиентской и серверной частью приложения.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+С использованием стека MERN разработчики могут создавать современные веб-приложения с отзывчивым интерфейсом, масштабируемым сервером и надежной базой данных. Комбинирование этих технологий обеспечивает быстрое развертывание и разработку веб-приложений.
