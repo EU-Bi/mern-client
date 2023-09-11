@@ -79,7 +79,7 @@ export const FullPost = () => {
         >
           <Button
             onClick={() => setShowTest(!showTest)}
-            disabled={userData?._id !== data.user._id}
+            disabled={data.user._id ? true : false}
             variant="contained"
           >
             Начать тест

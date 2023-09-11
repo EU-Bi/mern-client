@@ -31,8 +31,9 @@ export const Registration = () => {
       return alert("Не удалось зарегистрироваться");
     }
     if ("token" in data.payload) {
+      console.log(data.payload._id)
       window.localStorage.setItem("id", data.payload._id);
-      window.localStorage.setItem("token", `Bearer ${data.payload.token}`);
+      window.localStorage.setItem("token", data.payload.token);
     }
   };
   if (isAuth) {

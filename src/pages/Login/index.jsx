@@ -31,7 +31,7 @@ export const Login = () => {
     }
     if ("token" in data.payload) {
       window.localStorage.setItem("id", data.payload._id);
-      window.localStorage.setItem("token", `Bearer ${data.payload.token}`);
+      window.localStorage.setItem("token", data.payload.token);
     }
   };
 
